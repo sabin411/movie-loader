@@ -1,0 +1,83 @@
+.available-movie-quality {
+  position: relative;
+  background: var(--primary-black);
+  padding: 1.5rem 0;
+}
+.available-movie-quality .available-movies-quality-wrapper {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--primary-black);
+}
+.available-movie-quality .available-movies-quality-wrapper::before {
+  position: absolute;
+  content: "Tech Specs";
+  color: var(--primary-white);
+  z-index: inherit;
+  top: 12px;
+  left: 25px;
+  font-size: var(--semi-size-font);
+  font-weight: 600;
+}
+.available-movie-quality .available-movies-quality-wrapper .top-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.available-movie-quality .available-movies-quality-wrapper .top-header div {
+  width: 130px;
+  padding: 0.7rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px 5px 0px 0px;
+  color: var(--smokewhite);
+  transition: 0.2s;
+}
+.available-movie-quality .available-movies-quality-wrapper .top-header div {
+  text-transform: uppercase;
+}
+.available-movie-quality
+  .available-movies-quality-wrapper
+  .top-header
+  div.active {
+  background-color: var(--third-black);
+  color: var(--semi-White);
+  font-weight: 600;
+}
+.quality-specs {
+  background: var(--secondary-black);
+  width: 100%;
+  border-radius: 5px;
+  padding: 1.5rem 0.8rem;
+}
+.quality-specs .row1,
+.quality-specs .row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quality-specs .row1 > div,
+.quality-specs .row2 > div {
+  position: relative;
+  width: 25%;
+  color: var(--smokewhite);
+}
+.quality-specs .row1 > div {
+  margin: 0.5rem 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--soft-black);
+}
+.quality-specs .row2 > div {
+  margin: 0.5rem 2rem;
+}
+.quality-specs .row1 > div span,
+.quality-specs .row2 > div span {
+  margin-right: 0.6rem;
+}

@@ -1,0 +1,44 @@
+.profileCell-wrapper {
+  display: flex;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--soft-black);
+  text-decoration: none;
+  align-items: center;
+  color: var(--smokewhite);
+}
+.avatar-wrapper {
+  display: inline-block;
+  min-height: 40px;
+  height: 40px;
+  min-width: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.5rem;
+  filter: brightness(100%);
+  transition: filter 0.2s;
+}
+.avatar-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.avatar-wrapper:hover {
+  filter: brightness(120%);
+}
+.cast-name {
+  margin-left: 0.5rem;
+  font-size: var(--semi-small-font-size);
+}
+
+.cast-name a {
+  font-weight: 500;
+  color: var(--smokewhite);
+  transition: color 0.2s;
+}
+.cast-name a:hover {
+  color: var(--primary-white);
+}
+.cast-name span {
+  color: var(--primary-white);
+}

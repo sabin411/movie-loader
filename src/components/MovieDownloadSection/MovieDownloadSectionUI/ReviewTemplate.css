@@ -1,0 +1,38 @@
+.review-wrapper {
+  margin-top: 35px;
+}
+.review-wrapper .reviewer-info {
+  font-size: 0.9em;
+  color: var(--smokewhite);
+  font-weight: 800;
+}
+.review-wrapper .reviewer-info .prefix {
+  color: var(--smokewhite);
+  font-weight: 300;
+}
+.review-wrapper .reviewer-info .reviewer-rating .star-icon {
+  margin: 0 0.3rem;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+.review-wrapper .reviewer-info .reviewer-rating {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: var(--primary-white);
+}
+.review-wrapper .review-title {
+  margin-top: 20px;
+  font-weight: 900;
+  color: var(--semi-White);
+  font-size: 0.9em;
+}
+.review-wrapper .full-review {
+  margin-top: 10px;
+  font-size: 0.9em;
+  line-height: 20px;
+  color: var(--smokewhite);
+}
+.line {
+  width: 100%;
+  border: 1px solid var(--soft-black);
+}
