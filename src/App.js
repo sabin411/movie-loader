@@ -13,7 +13,7 @@ function App() {
           background: "white",
         }}
       >
-        <a href="https://github.com/sabin411">Cloned by Sabin</a>
+        <a href="https://github.com/sabin411">Cloned by Sabin...</a>
       </div>
     </div>
   );
