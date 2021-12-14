@@ -7,6 +7,14 @@ function App() {
     <div className="container">
       <img src={bgURL} alt="" className="background-image" />
       <Layout />
+      <div
+        style={{
+          textAlign: "center",
+          background: "white",
+        }}
+      >
+        <a href="https://github.com/sabin411">Cloned by Sabin...</a>
+      </div>
     </div>
   );
 }
