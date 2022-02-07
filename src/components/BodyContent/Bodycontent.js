@@ -24,7 +24,7 @@ function Bodycontent() {
     axios
       .get("https://yts.mx/api/v2/list_movies.json", {
         params: {
-          limit: 4,
+          limit: 3,
           order_by: "desc",
           sort_by: "date_added",
           minimum_rating: 7,
