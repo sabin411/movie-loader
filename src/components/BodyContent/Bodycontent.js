@@ -22,16 +22,7 @@ function Bodycontent() {
   useEffect(() => {
     dispatch(updateBackdrop(true));
     axios
-      .get("https://yts.mx/api/v2/list_movies.json", {
-        params: {
-          limit: 3,
-          order_by: "desc",
-          sort_by: "date_added",
-          minimum_rating: 7,
-          quality: "1080p",
-          page: 1,
-        },
-      })
+      .get("https://yts.mx/api/v2/list_movies.json")
       .then((resp) => {
         const firstMovie = resp.data.data.movies[0];
         dispatch(updateBg(firstMovie.background_image_original));
